@@ -2,7 +2,7 @@
 #from https://www.terraform.io/docs/providers/google/getting_started.html
 
 provider "google" {
-  project = "{{gke20191013}}"
+  project = "gke20191013"
   region  = "us-central1"
   zone    = "us-central1-c"
 }
